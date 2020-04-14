@@ -1,0 +1,5 @@
+/* .stdin  {font-family: monospace, monospace; text-decoration: underline;} */
+/* .stdin  {font-family: monospace, monospace; color: blue;} */
+.stdin  {font-family: monospace, monospace;}
+.stdout {font-family: monospace, monospace;}
+.stderr {font-family: monospace, monospace; color: red;}
