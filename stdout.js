@@ -7,7 +7,7 @@ var htmlEscapeMap = {
 };
 
 function htmlEscape(text) {
-  return text.replace(/[&<>"']/g, function(ch) { return htmlEscapeMap(ch); });
+  return text.replace(/[&<>"']/g, function(ch) { return htmlEscapeMap[ch]; });
 }
 
 var Module = {
